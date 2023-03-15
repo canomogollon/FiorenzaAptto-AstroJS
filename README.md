@@ -1,9 +1,19 @@
 # FiorenzaAptto-AstroJS
 ## Landing Page HTML + CSS “TailwindCSS“ + JS in ASTROJS
+![WebSite](https://www.fiorenzaapartamentos.com/assets/opengraph.jpg "Fiorenza Apartamentos")
 
-![Fachada del Proyecto](https://fiorenzaapartamentos.com/assets/img/02-porteria.webp "Fiorenza Apartamentos")
-	
+# Fiorenza Apartamentos
+
+## Landing Page HTML + CSS “TailwindCSS“ + JS in ASTROJS
 > **Second site with ASTROJS a learning experience**
+
+
+## Technology
+
+- [Html] - Hyper Text Markup Language!
+- [TailwindCss] - CSS framework
+- [Javascript] - lightweight, interpreted, or just-in-time compiled programming language with first-class functions.
+- [AstroJS] - all-in-one framework for building fast websites faster
 
 This is a brief overview of a Landing Page called Fiorenza Apartamentos. It was launched in February 2023 and built using **HTML5** and **CSS** with the **TAILWINDCSS** framework. is a utility-first CSS framework that provides pre-defined CSS classes to speed up the development process.
 
@@ -15,7 +25,7 @@ Overall, the Fiorenza Apartamentos Landing Page was designed with customer attra
 
 ***
 
-> **Segundo sitio con ASTROJS todo un aprendizaje** 
+> **Segundo sitio con ASTROJS todo un aprendizaje**
 
 Este es un breve resumen de una Landing Page llamada Fiorenza Apartamentos. la cual fue lanzada en febrero de 2023,  diseñada y construida usando **HTML5** y **CSS** con el framework **TAILWINDCSS**. el cual es un framework CSS que proporciona clases CSS predefinidas para acelerar el proceso de desarrollo.
 
@@ -24,3 +34,9 @@ Para que la página sea más rápida, se construyó bajo [**ASTROJS**](https://a
 Todas las imágenes de la página se implementaron en formato "webp", que es un formato de imagen más eficiente que los formatos tradicionales como JPEG o PNG. Además, se minimizó el código para reducir el tiempo de carga de la página, lo que se traduce en una experiencia de usuario más eficaz.
 
 En general, la página de espectativa o leads de Fiorenza Apartamentos se diseñó pensando en atraer al cliente. Su rápido rendimiento, diseño atractivo y código eficiente la convierten en un excelente ejemplo de desarrollo eficaz de páginas de aterrizaje.
+
+
+[Html]: <https://www.w3schools.com/html/html_intro.asp>
+[TailwindCss]: <https://tailwindcss.com>
+[Javascript]: <https://www.javascript.com>
+[AstroJS]: <https://astro.build>
