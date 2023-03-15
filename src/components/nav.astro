@@ -1,0 +1,194 @@
+---
+/** ant */
+/** container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center bg-none */
+/** flex title-font font-medium items-center mb-4 md:mb-0 */
+/**  md:ml-auto flex flex-wrap items-center text-base justify-center */
+/** inline-flex items-center bg-gray-600 border-0 py-1 px-3 focus:outline-none hover:bg-gray-800 rounded text-base mt-4 md:mt-0 */
+
+/** new */
+/** relative px-4 py-4 flex justify-between items-center */
+/** text-3xl font-bold leading-none */
+/** hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-end lg:w-auto lg:space-x-6*/
+/** hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200 */
+---
+
+<header class="">
+	<nav
+		class="container flex flex-row flex-wrap items-center justify-between px-5 pt-3 mx-auto bg-none">
+		<a
+			class="flex items-center mb-4 font-medium md:mb-0"
+			href="https://www.fiorenzaapartamentos.com/">
+			<img
+				src="/assets/fiorenza-apartamentos-calasanz-medellin-colombia.webp"
+				class="h-24"
+				alt="Fiorenza Apartamentos Calasanz Medellin Colombia"
+				title="Fiorenza Apartamentos Calasanz Medellin Colombia"
+			/>
+		</a>
+		<div class="inline-flex items-center lg:hidden">
+			<button class="flex items-center p-3 navbar-burger text-fiorenza-50">
+				<svg
+					class="block w-4 h-4 fill-current"
+					viewBox="0 0 20 20"
+					xmlns="http://www.w3.org/2000/svg">
+					<title>Menu Mobil</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+		<ul
+			class="flex-wrap items-center justify-center hidden text-base md:ml-auto lg:flex lg:items-end lg:w-auto lg:space-x-6">
+			<li>
+				<a
+					class="text-fiorenza hover:text-neutral-50 hover:underline"
+					href="#espaciosFiorenza">Nuestros Espacios</a
+				>
+			</li>
+			<li>
+				<a
+					class="text-fiorenza hover:text-neutral-50 hover:underline"
+					href="#quienesSomos">¿Quienes Somos?</a
+				>
+			</li>
+
+			<li>
+				<a
+					class="text-fiorenza hover:text-neutral-50 hover:underline"
+					href="pqr.html">PQR</a
+				>
+			</li>
+
+			<li>
+				<a
+					class="text-fiorenza hover:text-neutral-50 hover:underline"
+					href="postventa.html">PostVenta</a
+				>
+			</li>
+		</ul>
+	</nav>
+	<div class="relative z-50 hidden navbar-menu">
+		<div class="fixed inset-0 opacity-25 navbar-backdrop bg-fiorenza-50"></div>
+		<nav
+			class="fixed top-0 bottom-0 left-0 flex flex-col w-5/6 max-w-sm px-6 py-6 overflow-y-auto border-r bg-foreground">
+			<div class="flex items-center mb-8">
+				<a
+					class="flex items-center mb-4 font-medium md:mb-0"
+					href="https://www.fiorenzaapartamentos.com/">
+					<img
+						src="/assets/fiorenza-apartamentos-calasanz-medellin-colombia.webp"
+						class="h-24"
+						alt="Fiorenza Apartamentos Calasanz Medellin Colombia"
+						title="Fiorenza Apartamentos Calasanz Medellin Colombia"
+					/>
+				</a>
+				<button class="navbar-close">
+					<svg
+						class="w-6 h-6 text-gray-400 cursor-pointer hover:text-gray-500"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div>
+				<ul>
+					<li class="mb-1">
+						<a
+							class="block p-2 text-sm font-semibold rounded text-fiorenza hover:bg-neutral-50 hover:text-foreground"
+							href="#espaciosFiorenza">Nuestros Espacios</a
+						>
+					</li>
+					<li class="mb-1">
+						<a
+							class="block p-2 text-sm font-semibold rounded text-fiorenza hover:bg-neutral-50 hover:text-foreground"
+							href="#quienesSomos">¿Quienes Somos?</a
+						>
+					</li>
+					<li class="mb-1">
+						<a
+							class="block p-2 text-sm font-semibold rounded text-fiorenza hover:bg-neutral-50 hover:text-foreground"
+							href="#">PQR</a
+						>
+					</li>
+					<li class="mb-1">
+						<a
+							class="block p-2 text-sm font-semibold rounded text-fiorenza hover:bg-neutral-50 hover:text-foreground"
+							href="#">PotstVenta</a
+						>
+					</li>
+				</ul>
+			</div>
+			<div class="mt-auto">
+				<div class="items-center pt-6 text-center">
+					<a
+						class="inline-flex px-6 py-2 mt-4 ml-5 text-xs font-bold leading-loose transition duration-200 border-0 text-fiorenza-600 hover:text-fiorenza-800 bg-fiorenza-50 focus:outline-none hover:bg-fiorenza rounded-xl"
+						href="#"
+						>Escribenos
+						<svg
+							fill="none"
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							class="w-4 h-4 ml-1"
+							viewBox="0 0 24 24">
+							<path d="M5 12h14M12 5l7 7-7 7"></path>
+						</svg>
+					</a>
+				</div>
+				<p class="my-4 text-xs text-center text-fiorenza-50">
+					<span>Fiorenza Apartamentos © 2023</span>
+				</p>
+			</div>
+		</nav>
+	</div>
+
+	<script is:inline>
+		// Burger menus
+		document.addEventListener("DOMContentLoaded", function () {
+			// open
+			const burger = document.querySelectorAll(".navbar-burger");
+			const menu = document.querySelectorAll(".navbar-menu");
+
+			if (burger.length && menu.length) {
+				for (var i = 0; i < burger.length; i++) {
+					burger[i].addEventListener("click", function () {
+						for (var j = 0; j < menu.length; j++) {
+							menu[j].classList.toggle("hidden");
+						}
+					});
+				}
+			}
+
+			// close
+			const close = document.querySelectorAll(".navbar-close");
+			const backdrop = document.querySelectorAll(".navbar-backdrop");
+
+			if (close.length) {
+				for (var i = 0; i < close.length; i++) {
+					close[i].addEventListener("click", function () {
+						for (var j = 0; j < menu.length; j++) {
+							menu[j].classList.toggle("hidden");
+						}
+					});
+				}
+			}
+
+			if (backdrop.length) {
+				for (var i = 0; i < backdrop.length; i++) {
+					backdrop[i].addEventListener("click", function () {
+						for (var j = 0; j < menu.length; j++) {
+							menu[j].classList.toggle("hidden");
+						}
+					});
+				}
+			}
+		});
+	</script>
+</header>

@@ -1,0 +1,26 @@
+{
+	"name": "fiorenza landingpage",
+	"version": "0.5",
+	"private": true,
+	"author": {
+		"name": "BYGOTO <to@bygoto.co> (https://bybogoto.co)"
+	},
+	"description": "Está compuesto por 430 unidades (de 40 y 58 metros cuadrados), distribuidas en 3 torres de aproximadamente 25 pisos. Se caracteriza por ser un moderno conjunto residencial que mezcla lo industrial con el arte, lo que se refleja en sus zonas comunes.",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/tailwind": "^3.0.1",
+		"astro": "^2.0.14",
+		"astro-seo": "^0.7.1",
+		"tailwindcss": "^3.2.4"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.21"
+	}
+}
